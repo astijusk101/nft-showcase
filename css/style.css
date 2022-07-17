@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p, h1{
+    font-family: 'Outfit', sans-serif;;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(217, 54%, 11%);
+}
+.main-container{
+    display: block;
+    width: 25rem;
+    margin-top: 3rem;
+    padding-bottom: 40px;
+    background: hsl(214, 50%, 16%);
+    border-radius: 20px;
+}
+.img-container{
+    display: block;
+    width: 20rem;
+    height: 22rem;
+    margin: auto;
+    margin-top: 35px;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.description-container{
+    width: 20rem;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.description-container h1, p{
+    display: block;
+    text-align: left;
+}
+.description-container h1{
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.description-container p{
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.price-time-container{
+    width: 20rem;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.price-time-container img, p{
+    padding-top: 10px;
+    display: inline;
+}
+.price-time-container p{
+    vertical-align: 4px;
+}
+.time-container{
+    float: right;
+    color: hsl(215, 51%, 70%);
+}
+.price-container{
+    display: inline;
+    color: hsl(178, 100%, 50%);
+}
+.creator-container{
+    display: block;
+    margin: auto;
+    width: 20rem;
+    padding-top: 10px;
+}
+.creator-container img{
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.creator-container img, p{
+    display: inline;
+}
+.creator-container p{
+    vertical-align: 12px;
+    color:hsl(215, 51%, 70%) 
+}
+.creator-container span{
+    color: #fff;
+}
+hr{
+    width: 20rem;   
+    margin: auto;
+    border: 0.5px solid;
+    color: hsl(215, 32%, 27%);
+}
